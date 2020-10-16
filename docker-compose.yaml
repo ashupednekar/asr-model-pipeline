@@ -1,0 +1,6 @@
+version: '3'
+services:
+    model-pipeline:
+        image: 'bankbuddy.azurecr.io/speech-pipeline:test'
+        command: "ls"
+        container_name: "amigo-speech-pipeline"
